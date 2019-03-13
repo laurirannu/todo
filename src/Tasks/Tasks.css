@@ -1,0 +1,33 @@
+.tasks-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: 300px;
+}
+
+.task {
+    border: 1px solid green;
+    margin: 0px 100px 50px 0;
+    width: 200px;
+    text-align: center;
+    word-break: break-all;
+    padding: 10px 10px 10px 10px;
+}
+
+.delete-button {
+    width: 16px;
+    background: white;
+    border: none;
+    position: absolute;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.delete-button img {
+    position: absolute;
+    top: -100%;
+}
+
+.delete-button:focus {
+    outline: none;
+}
